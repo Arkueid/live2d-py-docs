@@ -8,10 +8,11 @@ export default {
     sidebar: [
       {
         text: '开发文档',
-        collapsable: true,
+        collapsed: false,
         items: [
           {
             text: '需求分析',
+            collapsed: false,
             items: [
               { text: '引言', link: '/开发文档/需求分析/引言' },
               { text: '总览', link: '/开发文档/需求分析/总览' },
@@ -26,6 +27,7 @@ export default {
       },
       {
         text: '使用说明',
+        collapsed: false,
         items: [
           { text: '介绍', link: '/使用说明/index' },
         ]
