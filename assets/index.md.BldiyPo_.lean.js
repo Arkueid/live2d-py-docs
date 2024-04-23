@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a2 as s}from"./chunks/framework.BUWrf0Kh.js";const m=JSON.parse('{"title":"DeskPal","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),o={name:"index.md"},n=s("",3),r=[n];function i(l,_,c,d,p,g){return a(),t("div",null,r)}const f=e(o,[["render",i]]);export{m as __pageData,f as default};

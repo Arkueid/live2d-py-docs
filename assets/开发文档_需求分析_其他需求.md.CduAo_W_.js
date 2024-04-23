@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.BUWrf0Kh.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"开发文档/需求分析/其他需求.md","filePath":"开发文档/需求分析/其他需求.md"}'),r={name:"开发文档/需求分析/其他需求.md"};function o(s,c,n,_,p,d){return a(),t("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};
