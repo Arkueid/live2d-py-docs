@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as i,a2 as n}from"./chunks/framework.BayvGiKz.js";const g=JSON.parse('{"title":"口型同步","description":"","frontmatter":{},"headers":[],"relativePath":"使用说明/口型同步.md","filePath":"使用说明/口型同步.md"}'),p={name:"使用说明/口型同步.md"},e=n("",10),l=[e];function t(h,k,r,d,E,o){return i(),a("div",null,l)}const y=s(p,[["render",t]]);export{g as __pageData,y as default};
