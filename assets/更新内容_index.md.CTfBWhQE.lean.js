@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as i,a2 as n}from"./chunks/framework.BayvGiKz.js";const g=JSON.parse('{"title":"更新内容","description":"","frontmatter":{},"headers":[],"relativePath":"更新内容/index.md","filePath":"更新内容/index.md"}'),e={name:"更新内容/index.md"},p=n("",22),l=[p];function t(d,h,r,k,o,c){return i(),s("div",null,l)}const m=a(e,[["render",t]]);export{g as __pageData,m as default};
