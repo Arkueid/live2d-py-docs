@@ -1,5 +1,46 @@
 # 更新内容
 
+## 2024/10/2
+
+添加`Part`透明度控制
+
+```python
+class LAppModel:
+    ...
+
+    def GetPartCount() -> int:
+        pass
+
+    def GetPartId(index: int) -> str:
+        pass
+
+    def GetPartIds() -> list[str]:
+        pass
+
+    def SetPartOpacity(index: int, opacity: float) -> None:
+        pass
+```
+
+用例： 
+
+```python
+log.Debug(f"Part Count: {model.GetPartCount()}")
+#  获取模型的 part id 列表（字符串列表）
+partIds = model.GetPartIds()
+log.Debug(f"Part Ids: {partIds}")
+# 通过 part id 在列表中的 index 来设置其透明度
+model.SetPartOpacity(partIds.index("PartHairBack"), 0.5)
+```
+
+## 2024/9/24
+* 更正`HitTest`的参数类型
+* 移除动态库内全局动作回调函数
+* 添加`live2d.clearBuffer`的可选背景色参数 by [@96bearli]
+* 修正`live2d.utils.log.logEnable`与动态库的状态同步
+* 修复简易面捕的抖动问题 by [@96bearli]
+
+[@96bearli]: https://github.com/96bearli
+
 ## 2024/8/22
 添加：
 
@@ -14,6 +55,9 @@ for i in range(model.GetParameterCount()):
     param: Parameter = model.GetParameter(i)
     print(param.id, param.type, param.value, param.max, param.min, param.default)
 ```
+
+
+
 
 ## 2024/8/19
 
