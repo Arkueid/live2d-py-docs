@@ -15,12 +15,13 @@ Cubism 3.0（含4.0） 模型使用接口见 [package/live2d/v3/live2d.pyi](http
 package\live2d
 |-- utils
 |   |
-|   |-- lipsync.py  # 口型同步工具
-|   `-- log.py      # 日志工具
+|   |
+|   `-- lipsync.py  # 口型同步工具
 `-- v3
     |-- __init__.py
     |-- live2d.pyd  # 动态库/封装c++函数
     |-- live2d.pyi  # 接口&文档
+    |-- log.py      # 日志工具
     `-- params.py   # live2d 标准参数
 ```
 
